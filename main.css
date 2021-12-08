@@ -1777,6 +1777,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-perspective: 1600px;
   perspective: 1600px;
   flex-wrap: wrap; }
   @media (max-width: 1040px) {
@@ -1787,33 +1788,35 @@ body {
     /* line 2126, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container {
       padding: 20px; } }
-  /* line 2145, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2147, /Users/user/Desktop/portfolio-new/main.scss */
   .flip-card-container .flip-card {
     position: relative;
     width: 120px;
     height: 168px;
-    transform-style: preserve-3d;
     cursor: pointer;
     transition: 1s ease all;
     margin: 20px 30px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 4px; }
+    border-radius: 4px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d; }
     @media (max-width: 1040px) {
-      /* line 2145, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2147, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card {
         width: 100px;
         height: 140px;
         margin: 25px; } }
     @media (max-width: 568px) {
-      /* line 2145, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2147, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card {
         width: 85px;
         height: 119px;
         margin: 20px; } }
-    /* line 2169, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2172, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card:hover {
+      -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg); }
-    /* line 2173, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2177, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-front,
     .flip-card-container .flip-card .card-back {
       position: absolute;
@@ -1822,51 +1825,52 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      backface-visibility: hidden;
-      border-radius: 4px; }
-    /* line 2186, /Users/user/Desktop/portfolio-new/main.scss */
+      border-radius: 4px;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+    /* line 2191, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-back {
       background-image: url(./project1/texture/texture2.png);
       background-repeat: no-repeat;
       background-position: center;
       color: #fff; }
-      /* line 2193, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2198, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card .card-back img {
         width: 100%; }
-    /* line 2199, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2204, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-front {
       background-repeat: no-repeat;
       background-position: center;
       color: #fff;
       transform: rotateY(180deg); }
-      /* line 2206, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2211, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card .card-front img {
         width: 100%; }
 
-/* line 2213, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2218, /Users/user/Desktop/portfolio-new/main.scss */
 #svg-anime {
   position: absolute;
   width: 80px;
   top: 20px; }
   @media (max-width: 1040px) {
-    /* line 2213, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2218, /Users/user/Desktop/portfolio-new/main.scss */
     #svg-anime {
       width: 70px;
       top: 15px; } }
   @media (max-width: 568px) {
-    /* line 2213, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2218, /Users/user/Desktop/portfolio-new/main.scss */
     #svg-anime {
       width: 60px;
       top: 15px; } }
 
 /*project1-final-page*/
-/* line 2230, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2235, /Users/user/Desktop/portfolio-new/main.scss */
 .final-page {
   position: relative; }
-  /* line 2233, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2238, /Users/user/Desktop/portfolio-new/main.scss */
   .final-page img {
     width: 100%; }
-  /* line 2237, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2242, /Users/user/Desktop/portfolio-new/main.scss */
   .final-page a {
     position: absolute;
     bottom: 2%;
@@ -1875,16 +1879,16 @@ body {
     color: #019FDE;
     text-decoration: underline; }
     @media (max-width: 768px) {
-      /* line 2237, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2242, /Users/user/Desktop/portfolio-new/main.scss */
       .final-page a {
         font-size: 14px; } }
     @media (max-width: 568px) {
-      /* line 2237, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2242, /Users/user/Desktop/portfolio-new/main.scss */
       .final-page a {
         font-size: 10px; } }
 
 /*loading screen*/
-/* line 2259, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2264, /Users/user/Desktop/portfolio-new/main.scss */
 .load-container {
   position: fixed;
   top: 0;
@@ -1894,7 +1898,7 @@ body {
   overflow: hidden;
   z-index: 99;
   pointer-events: none; }
-  /* line 2269, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2274, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .loading-screen {
     position: relative;
     padding-left: 0;
@@ -1907,7 +1911,7 @@ body {
     width: 100%;
     height: 100%;
     transform: translateY(100%); }
-    /* line 2282, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2287, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .loading-screen:after {
       position: absolute;
       content: '';
@@ -1917,7 +1921,7 @@ body {
       width: 100%;
       background: #0B0D15;
       opacity: .6; }
-  /* line 2295, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2300, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .img-container {
     position: absolute;
     width: 200px;
@@ -1928,11 +1932,11 @@ body {
     transition: .4s ease all;
     opacity: 0;
     z-index: 100; }
-    /* line 2308, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2313, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .img-container img {
       width: 100%; }
 
-/* line 2316, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2321, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-progress {
   width: 50px;
   height: 50px;
@@ -1945,14 +1949,14 @@ body {
   justify-content: center;
   align-items: center; }
   @media (max-width: 568px) {
-    /* line 2316, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2321, /Users/user/Desktop/portfolio-new/main.scss */
     .scroll-progress {
       width: 40px;
       height: 40px;
       bottom: 20px;
       right: 20px; } }
 
-/* line 2336, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2341, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-value {
   display: block;
   width: calc(100% - 2px);
@@ -1965,13 +1969,13 @@ body {
   align-items: center;
   font-size: 12px; }
 
-/* line 2351, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2356, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn.active {
   opacity: 1;
   cursor: pointer;
   transform: translateY(0); }
 
-/* line 2357, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2362, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn {
   position: fixed;
   display: flex;
@@ -1990,21 +1994,21 @@ body {
   opacity: 0;
   transform: translateY(10px); }
   @media (max-width: 568px) {
-    /* line 2357, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2362, /Users/user/Desktop/portfolio-new/main.scss */
     .topBtn {
       width: 30px;
       height: 30px;
       bottom: 25px;
       right: 25px; } }
-  /* line 2382, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2387, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn:hover {
     transform: scale(1.1); }
-  /* line 2387, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2392, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn img {
     width: 16px;
     -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); }
     @media (max-width: 568px) {
-      /* line 2387, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2392, /Users/user/Desktop/portfolio-new/main.scss */
       .topBtn img {
         width: 14px; } }
 
