@@ -1222,7 +1222,23 @@ body {
 				height: 320px;
 				border-radius: 20px;
 				box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.6);
-				z-index: 2;
+//				z-index: 2;
+				
+				.pile-creature-mobile{
+					display: none;
+					img{
+						width: 100%;
+					}
+					
+					@media (max-width:568px) {
+						position: absolute;
+					display: block;
+					width: 160px;
+					right: -80px;
+					bottom: -40px;
+					z-index: 4;
+					}
+				}
 
 				.pile-creature {
 					position: absolute;
@@ -1234,7 +1250,7 @@ body {
 					z-index: 4;
 
 					@media (max-width:568px) {
-						right: -100px;
+						display: none;
 					}
 
 					.block {
