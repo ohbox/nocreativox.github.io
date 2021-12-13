@@ -1337,21 +1337,22 @@ body {
         /* line 1662, /Users/user/Desktop/portfolio-new/main.scss */
         .skillset-section .skillset-wrap .option .content .tag {
           font-size: 16px;
-          color: white; }
+          color: white;
+          font-family: sans-serif; }
           @media (max-width: 568px) {
             /* line 1662, /Users/user/Desktop/portfolio-new/main.scss */
             .skillset-section .skillset-wrap .option .content .tag {
               font-size: 14px; } }
-        /* line 1672, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1673, /Users/user/Desktop/portfolio-new/main.scss */
         .skillset-section .skillset-wrap .option .content:after {
           font-size: 16px;
           content: attr(per);
           color: #FFAC81; }
           @media (max-width: 568px) {
-            /* line 1672, /Users/user/Desktop/portfolio-new/main.scss */
+            /* line 1673, /Users/user/Desktop/portfolio-new/main.scss */
             .skillset-section .skillset-wrap .option .content:after {
               font-size: 14px; } }
-      /* line 1684, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1685, /Users/user/Desktop/portfolio-new/main.scss */
       .skillset-section .skillset-wrap .option .skill-bar {
         position: relative;
         width: 100%;
@@ -1363,10 +1364,10 @@ body {
         align-items: center;
         padding: 0 5px; }
         @media (max-width: 568px) {
-          /* line 1684, /Users/user/Desktop/portfolio-new/main.scss */
+          /* line 1685, /Users/user/Desktop/portfolio-new/main.scss */
           .skillset-section .skillset-wrap .option .skill-bar {
             height: 10px; } }
-        /* line 1700, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1701, /Users/user/Desktop/portfolio-new/main.scss */
         .skillset-section .skillset-wrap .option .skill-bar:after {
           position: absolute;
           content: '';
@@ -1379,7 +1380,7 @@ body {
           box-shadow: inset 2px 2px 4px 1px rgba(255, 255, 255, 0.5);
           backdrop-filter: blur(0.8px);
           z-index: 4; }
-        /* line 1714, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1715, /Users/user/Desktop/portfolio-new/main.scss */
         .skillset-section .skillset-wrap .option .skill-bar .skill-per {
           position: relative;
           width: 0%;
@@ -1389,67 +1390,67 @@ body {
           z-index: 2;
           transition: 2s linear; }
           @media (max-width: 568px) {
-            /* line 1714, /Users/user/Desktop/portfolio-new/main.scss */
+            /* line 1715, /Users/user/Desktop/portfolio-new/main.scss */
             .skillset-section .skillset-wrap .option .skill-bar .skill-per {
               height: 5px; } }
 
-/* line 1740, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1741, /Users/user/Desktop/portfolio-new/main.scss */
 .contact-section {
   padding-bottom: 100px; }
-  /* line 1743, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 1744, /Users/user/Desktop/portfolio-new/main.scss */
   .contact-section .greet-wrap {
     position: relative;
     width: 80%;
     margin: 0 auto 50px auto;
     text-align: center; }
     @media (max-width: 568px) {
-      /* line 1743, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1744, /Users/user/Desktop/portfolio-new/main.scss */
       .contact-section .greet-wrap {
         margin: 0 auto 20px auto; } }
-    /* line 1754, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1755, /Users/user/Desktop/portfolio-new/main.scss */
     .contact-section .greet-wrap h1 {
       font-size: 46px;
       font-family: "Anton", sans-serif;
       color: white;
       letter-spacing: 5px; }
       @media (max-width: 1040px) {
-        /* line 1754, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1755, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap h1 {
           font-size: 40px;
           line-height: 1.2; } }
       @media (max-width: 680px) {
-        /* line 1754, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1755, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap h1 {
           font-size: 32px;
           line-height: 1.2; } }
       @media (max-width: 568px) {
-        /* line 1754, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1755, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap h1 {
           font-size: 26px;
           line-height: 1.4; } }
-    /* line 1776, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1777, /Users/user/Desktop/portfolio-new/main.scss */
     .contact-section .greet-wrap p {
       font-size: 14px;
       color: #808080;
       margin: auto; }
       @media (max-width: 1040px) {
-        /* line 1776, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1777, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap p {
           padding-top: 10px; } }
       @media (max-width: 680px) {
-        /* line 1776, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1777, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap p {
           width: 75%; } }
       @media (max-width: 568px) {
-        /* line 1776, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1777, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .greet-wrap p {
           width: 85%; } }
-  /* line 1797, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 1798, /Users/user/Desktop/portfolio-new/main.scss */
   .contact-section .contact-wrap {
     position: relative;
     width: 80%;
     margin: auto; }
-    /* line 1802, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1803, /Users/user/Desktop/portfolio-new/main.scss */
     .contact-section .contact-wrap .contact-container {
       width: auto;
       display: flex;
@@ -1458,33 +1459,33 @@ body {
       align-items: center;
       margin: 0 auto 50px auto; }
       @media (max-width: 680px) {
-        /* line 1802, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1803, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .contact-wrap .contact-container {
           flex-direction: column; } }
-      /* line 1815, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1816, /Users/user/Desktop/portfolio-new/main.scss */
       .contact-section .contact-wrap .contact-container section {
         text-align: center;
         width: 200px;
         margin: 0 20px; }
         @media (max-width: 680px) {
-          /* line 1815, /Users/user/Desktop/portfolio-new/main.scss */
+          /* line 1816, /Users/user/Desktop/portfolio-new/main.scss */
           .contact-section .contact-wrap .contact-container section {
             margin: 20px 0; } }
-        /* line 1824, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1825, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .contact-wrap .contact-container section img {
           width: 100px;
           height: 100px;
           margin-bottom: 10px; }
-        /* line 1830, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1831, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .contact-wrap .contact-container section h3 {
           font-size: 14px;
           color: #808080;
           font-family: "DM Mono", monospace; }
-        /* line 1836, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1837, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .contact-wrap .contact-container section p {
           font-size: 16px;
           color: white; }
-    /* line 1845, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1846, /Users/user/Desktop/portfolio-new/main.scss */
     .contact-section .contact-wrap .button {
       position: relative;
       width: 160px;
@@ -1501,7 +1502,7 @@ body {
       border: 1px solid #FFAC81;
       margin: auto; }
       @media (max-width: 768px) {
-        /* line 1845, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1846, /Users/user/Desktop/portfolio-new/main.scss */
         .contact-section .contact-wrap .button {
           background: linear-gradient(#FEAC81, #C46534);
           border: 0px solid #FFAC81; } }
@@ -1534,7 +1535,7 @@ body {
         color: white;
         z-index: 10; }
 
-/* line 1852, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1853, /Users/user/Desktop/portfolio-new/main.scss */
 .footer {
   width: 100%;
   height: 30px;
@@ -1543,30 +1544,30 @@ body {
   font-size: 12px; }
 
 /*project-mockup*/
-/* line 1863, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1864, /Users/user/Desktop/portfolio-new/main.scss */
 .project-mockup {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10; }
 
-/* line 1871, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1872, /Users/user/Desktop/portfolio-new/main.scss */
 .mockup2 {
   width: 600px;
   bottom: -320px; }
   @media (max-width: 680px) {
-    /* line 1871, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1872, /Users/user/Desktop/portfolio-new/main.scss */
     .mockup2 {
       width: 500px;
       bottom: -220px; } }
   @media (max-width: 568px) {
-    /* line 1871, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1872, /Users/user/Desktop/portfolio-new/main.scss */
     .mockup2 {
       width: 300px;
       bottom: -40px; } }
 
 /*project1-icon-anime*/
-/* line 1887, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1888, /Users/user/Desktop/portfolio-new/main.scss */
 .icon-anime {
   background: #fff;
   padding: 20px 50px 40px 50px;
@@ -1575,14 +1576,14 @@ body {
   justify-content: center;
   align-items: center; }
   @media (max-width: 768px) {
-    /* line 1887, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1888, /Users/user/Desktop/portfolio-new/main.scss */
     .icon-anime {
       padding: 10px 8%; } }
   @media (max-width: 568px) {
-    /* line 1887, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1888, /Users/user/Desktop/portfolio-new/main.scss */
     .icon-anime {
       padding: 10px 8%; } }
-  /* line 1905, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 1906, /Users/user/Desktop/portfolio-new/main.scss */
   .icon-anime .icon-box {
     background: #fff;
     width: 90px;
@@ -1596,76 +1597,76 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    /* line 1920, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1921, /Users/user/Desktop/portfolio-new/main.scss */
     .icon-anime .icon-box:hover {
       transform: translateY(-4px); }
     @media (max-width: 1040px) {
-      /* line 1905, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1906, /Users/user/Desktop/portfolio-new/main.scss */
       .icon-anime .icon-box {
         width: 80px;
         height: 80px;
         border-radius: 16px;
         margin: 15px; } }
     @media (max-width: 768px) {
-      /* line 1905, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1906, /Users/user/Desktop/portfolio-new/main.scss */
       .icon-anime .icon-box {
         width: 72px;
         height: 72px;
         border-radius: 14px;
         margin: 10px 15px; } }
     @media (max-width: 684px) {
-      /* line 1905, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1906, /Users/user/Desktop/portfolio-new/main.scss */
       .icon-anime .icon-box {
         margin: 10px 5px; } }
     @media (max-width: 568px) {
-      /* line 1905, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1906, /Users/user/Desktop/portfolio-new/main.scss */
       .icon-anime .icon-box {
         width: 72px;
         height: 62px;
         border-radius: 12px;
         margin: 10px 10px;
         box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.12); } }
-    /* line 1950, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1951, /Users/user/Desktop/portfolio-new/main.scss */
     .icon-anime .icon-box svg {
       width: 36px; }
       @media (max-width: 1040px) {
-        /* line 1950, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1951, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box svg {
           width: 30px; } }
       @media (max-width: 768px) {
-        /* line 1950, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1951, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box svg {
           width: 26px; } }
       @media (max-width: 568px) {
-        /* line 1950, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1951, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box svg {
           width: 22px; } }
-    /* line 1967, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 1968, /Users/user/Desktop/portfolio-new/main.scss */
     .icon-anime .icon-box p {
       font-weight: bolder;
       margin-top: 4px;
       color: #707070;
       font-size: 14px; }
       @media (max-width: 1100px) {
-        /* line 1967, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1968, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box p {
           font-size: 12px; } }
       @media (max-width: 768px) {
-        /* line 1967, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1968, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box p {
           font-size: 11px; } }
       @media (max-width: 568px) {
-        /* line 1967, /Users/user/Desktop/portfolio-new/main.scss */
+        /* line 1968, /Users/user/Desktop/portfolio-new/main.scss */
         .icon-anime .icon-box p {
           font-size: 8px; } }
 
 /*project3-link-adjustment*/
-/* line 1989, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 1990, /Users/user/Desktop/portfolio-new/main.scss */
 .pj3-link-container {
   position: relative;
   background-color: #101010;
   padding-bottom: 50px; }
-  /* line 1994, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 1995, /Users/user/Desktop/portfolio-new/main.scss */
   .pj3-link-container a {
     color: #F28273;
     display: block;
@@ -1675,10 +1676,10 @@ body {
     -moz-animation: glow infinite ease alternate 1.6s;
     -webkit-animation: glow infinite ease alternate 1.6s; }
     @media (max-width: 568px) {
-      /* line 1994, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 1995, /Users/user/Desktop/portfolio-new/main.scss */
       .pj3-link-container a {
         font-size: 14px; } }
-  /* line 2008, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2009, /Users/user/Desktop/portfolio-new/main.scss */
   .pj3-link-container .webflow {
     color: #fff;
     display: flex;
@@ -1688,10 +1689,10 @@ body {
     font-size: 12px;
     padding-top: 15px; }
     @media (max-width: 568px) {
-      /* line 2008, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2009, /Users/user/Desktop/portfolio-new/main.scss */
       .pj3-link-container .webflow {
         font-size: 10px; } }
-    /* line 2022, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2023, /Users/user/Desktop/portfolio-new/main.scss */
     .pj3-link-container .webflow img {
       width: 26px;
       height: 26px;
@@ -1704,32 +1705,32 @@ body {
     text-shadow: 0 0 18px #F28273, 0 0 28px #F28273; } }
 
 /*project-content*/
-/* line 2044, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2045, /Users/user/Desktop/portfolio-new/main.scss */
 .pj1-bg,
 .pj2-bg {
   background-color: #fff; }
 
-/* line 2051, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2052, /Users/user/Desktop/portfolio-new/main.scss */
 .project-work {
   margin: 200px auto 50px auto;
   text-align: center;
   position: relative;
   max-width: 1000px; }
   @media (max-width: 1040px) {
-    /* line 2051, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2052, /Users/user/Desktop/portfolio-new/main.scss */
     .project-work {
       width: 750px;
       margin: 120px auto 50px auto; } }
   @media (max-width: 768px) {
-    /* line 2051, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2052, /Users/user/Desktop/portfolio-new/main.scss */
     .project-work {
       width: 90%;
       margin: 120px auto 50px auto; } }
   @media (max-width: 568px) {
-    /* line 2051, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2052, /Users/user/Desktop/portfolio-new/main.scss */
     .project-work {
       margin: -20px auto 50px auto; } }
-  /* line 2074, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2075, /Users/user/Desktop/portfolio-new/main.scss */
   .project-work .link-section {
     position: relative;
     margin: 0 auto 50px auto;
@@ -1743,15 +1744,15 @@ body {
     transition: .6s ease all;
     text-transform: capitalize; }
     @media (max-width: 680px) {
-      /* line 2074, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2075, /Users/user/Desktop/portfolio-new/main.scss */
       .project-work .link-section {
         height: 30px;
         font-size: 14px;
         line-height: 30px; } }
-    /* line 2095, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2096, /Users/user/Desktop/portfolio-new/main.scss */
     .project-work .link-section:hover {
       transform: translateY(-8px); }
-    /* line 2100, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2101, /Users/user/Desktop/portfolio-new/main.scss */
     .project-work .link-section a {
       position: relative;
       width: 100%;
@@ -1761,21 +1762,21 @@ body {
       font-family: "DM Mono", monospace;
       color: #628de3;
       z-index: 11; }
-  /* line 2114, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2115, /Users/user/Desktop/portfolio-new/main.scss */
   .project-work .video-container {
     margin: auto;
     width: 86%;
     height: 400px; }
     @media (max-width: 568px) {
-      /* line 2114, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2115, /Users/user/Desktop/portfolio-new/main.scss */
       .project-work .video-container {
         height: 180px; } }
-  /* line 2124, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2125, /Users/user/Desktop/portfolio-new/main.scss */
   .project-work .block {
     display: block;
     width: 100%;
     height: 50px; }
-  /* line 2130, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2131, /Users/user/Desktop/portfolio-new/main.scss */
   .project-work > img {
     display: block;
     width: 100%;
@@ -1783,7 +1784,7 @@ body {
     margin: 0; }
 
 /*mascot-card-flip*/
-/* line 2141, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2142, /Users/user/Desktop/portfolio-new/main.scss */
 .flip-card-container {
   background: #FAFAFA;
   padding: 20px 100px;
@@ -1794,14 +1795,14 @@ body {
   perspective: 1600px;
   flex-wrap: wrap; }
   @media (max-width: 1040px) {
-    /* line 2141, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2142, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container {
       padding: 20px 60px; } }
   @media (max-width: 568px) {
-    /* line 2141, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2142, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container {
       padding: 20px; } }
-  /* line 2162, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2163, /Users/user/Desktop/portfolio-new/main.scss */
   .flip-card-container .flip-card {
     position: relative;
     width: 120px;
@@ -1814,22 +1815,22 @@ body {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d; }
     @media (max-width: 1040px) {
-      /* line 2162, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2163, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card {
         width: 100px;
         height: 140px;
         margin: 25px; } }
     @media (max-width: 568px) {
-      /* line 2162, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2163, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card {
         width: 85px;
         height: 119px;
         margin: 20px; } }
-    /* line 2187, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2188, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card:hover {
       -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg); }
-    /* line 2192, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2193, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-front,
     .flip-card-container .flip-card .card-back {
       position: absolute;
@@ -1841,49 +1842,49 @@ body {
       border-radius: 4px;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
-    /* line 2206, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2207, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-back {
       background-image: url(./project1/texture/texture2.png);
       background-repeat: no-repeat;
       background-position: center;
       color: #fff; }
-      /* line 2213, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2214, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card .card-back img {
         width: 100%; }
-    /* line 2219, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2220, /Users/user/Desktop/portfolio-new/main.scss */
     .flip-card-container .flip-card .card-front {
       background-repeat: no-repeat;
       background-position: center;
       color: #fff;
       transform: rotateY(180deg); }
-      /* line 2226, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2227, /Users/user/Desktop/portfolio-new/main.scss */
       .flip-card-container .flip-card .card-front img {
         width: 100%; }
 
-/* line 2233, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2234, /Users/user/Desktop/portfolio-new/main.scss */
 #svg-anime {
   position: absolute;
   width: 80px;
   top: 20px; }
   @media (max-width: 1040px) {
-    /* line 2233, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2234, /Users/user/Desktop/portfolio-new/main.scss */
     #svg-anime {
       width: 70px;
       top: 15px; } }
   @media (max-width: 568px) {
-    /* line 2233, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2234, /Users/user/Desktop/portfolio-new/main.scss */
     #svg-anime {
       width: 60px;
       top: 15px; } }
 
 /*project1-final-page*/
-/* line 2250, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2251, /Users/user/Desktop/portfolio-new/main.scss */
 .final-page {
   position: relative; }
-  /* line 2253, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2254, /Users/user/Desktop/portfolio-new/main.scss */
   .final-page img {
     width: 100%; }
-  /* line 2257, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2258, /Users/user/Desktop/portfolio-new/main.scss */
   .final-page a {
     position: absolute;
     bottom: 2%;
@@ -1892,16 +1893,16 @@ body {
     color: #019FDE;
     text-decoration: underline; }
     @media (max-width: 768px) {
-      /* line 2257, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2258, /Users/user/Desktop/portfolio-new/main.scss */
       .final-page a {
         font-size: 14px; } }
     @media (max-width: 568px) {
-      /* line 2257, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2258, /Users/user/Desktop/portfolio-new/main.scss */
       .final-page a {
         font-size: 10px; } }
 
 /*loading screen*/
-/* line 2279, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2280, /Users/user/Desktop/portfolio-new/main.scss */
 .load-container {
   position: fixed;
   top: 0;
@@ -1911,7 +1912,7 @@ body {
   overflow: hidden;
   z-index: 99;
   pointer-events: none; }
-  /* line 2289, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2290, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .loading-screen {
     position: relative;
     padding-left: 0;
@@ -1924,7 +1925,7 @@ body {
     width: 100%;
     height: 100%;
     transform: translateY(100%); }
-    /* line 2302, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2303, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .loading-screen:after {
       position: absolute;
       content: '';
@@ -1934,7 +1935,7 @@ body {
       width: 100%;
       background: #0B0D15;
       opacity: .6; }
-  /* line 2315, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2316, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .img-container {
     position: absolute;
     width: 200px;
@@ -1945,11 +1946,11 @@ body {
     transition: .4s ease all;
     opacity: 0;
     z-index: 100; }
-    /* line 2328, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2329, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .img-container img {
       width: 100%; }
 
-/* line 2336, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2337, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-progress {
   width: 50px;
   height: 50px;
@@ -1962,14 +1963,14 @@ body {
   justify-content: center;
   align-items: center; }
   @media (max-width: 568px) {
-    /* line 2336, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2337, /Users/user/Desktop/portfolio-new/main.scss */
     .scroll-progress {
       width: 40px;
       height: 40px;
       bottom: 20px;
       right: 20px; } }
 
-/* line 2356, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2357, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-value {
   display: block;
   width: calc(100% - 2px);
@@ -1982,13 +1983,13 @@ body {
   align-items: center;
   font-size: 12px; }
 
-/* line 2371, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2372, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn.active {
   opacity: 1;
   cursor: pointer;
   transform: translateY(0); }
 
-/* line 2377, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2378, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn {
   position: fixed;
   display: flex;
@@ -2007,21 +2008,21 @@ body {
   opacity: 0;
   transform: translateY(10px); }
   @media (max-width: 568px) {
-    /* line 2377, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2378, /Users/user/Desktop/portfolio-new/main.scss */
     .topBtn {
       width: 30px;
       height: 30px;
       bottom: 25px;
       right: 25px; } }
-  /* line 2402, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2403, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn:hover {
     transform: scale(1.1); }
-  /* line 2407, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2408, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn img {
     width: 16px;
     -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); }
     @media (max-width: 568px) {
-      /* line 2407, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2408, /Users/user/Desktop/portfolio-new/main.scss */
       .topBtn img {
         width: 14px; } }
 
