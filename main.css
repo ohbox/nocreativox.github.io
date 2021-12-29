@@ -1913,6 +1913,16 @@ body {
   z-index: 99;
   pointer-events: none; }
   /* line 2296, /Users/user/Desktop/portfolio-new/main.scss */
+  .load-container .loading-innerscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFAC81;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    z-index: 1; }
+  /* line 2307, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .loading-screen {
     position: relative;
     padding-left: 0;
@@ -1924,8 +1934,9 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-    transform: translateY(100%); }
-    /* line 2309, /Users/user/Desktop/portfolio-new/main.scss */
+    transform: translateY(100%);
+    z-index: 2; }
+    /* line 2321, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .loading-screen:after {
       position: absolute;
       content: '';
@@ -1935,22 +1946,22 @@ body {
       width: 100%;
       background: #0B0D15;
       opacity: .6; }
-  /* line 2322, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2334, /Users/user/Desktop/portfolio-new/main.scss */
   .load-container .img-container {
     position: absolute;
-    width: 200px;
-    height: 120px;
+    width: 160px;
+    height: 96px;
     left: 50%;
-    top: 60%;
+    top: 40%;
     transform: translate(-50%, -50%);
     transition: .4s ease all;
     opacity: 0;
     z-index: 100; }
-    /* line 2335, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2347, /Users/user/Desktop/portfolio-new/main.scss */
     .load-container .img-container img {
       width: 100%; }
 
-/* line 2343, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2355, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-progress {
   width: 50px;
   height: 50px;
@@ -1963,14 +1974,14 @@ body {
   justify-content: center;
   align-items: center; }
   @media (max-width: 568px) {
-    /* line 2343, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2355, /Users/user/Desktop/portfolio-new/main.scss */
     .scroll-progress {
       width: 40px;
       height: 40px;
       bottom: 20px;
       right: 20px; } }
 
-/* line 2363, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2375, /Users/user/Desktop/portfolio-new/main.scss */
 .scroll-value {
   display: block;
   width: calc(100% - 2px);
@@ -1983,13 +1994,13 @@ body {
   align-items: center;
   font-size: 12px; }
 
-/* line 2378, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2390, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn.active {
   opacity: 1;
   cursor: pointer;
   transform: translateY(0); }
 
-/* line 2384, /Users/user/Desktop/portfolio-new/main.scss */
+/* line 2396, /Users/user/Desktop/portfolio-new/main.scss */
 .topBtn {
   position: fixed;
   display: flex;
@@ -2008,21 +2019,21 @@ body {
   opacity: 0;
   transform: translateY(10px); }
   @media (max-width: 568px) {
-    /* line 2384, /Users/user/Desktop/portfolio-new/main.scss */
+    /* line 2396, /Users/user/Desktop/portfolio-new/main.scss */
     .topBtn {
       width: 30px;
       height: 30px;
       bottom: 25px;
       right: 25px; } }
-  /* line 2409, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2421, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn:hover {
     transform: scale(1.1); }
-  /* line 2414, /Users/user/Desktop/portfolio-new/main.scss */
+  /* line 2426, /Users/user/Desktop/portfolio-new/main.scss */
   .topBtn img {
     width: 16px;
     -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); }
     @media (max-width: 568px) {
-      /* line 2414, /Users/user/Desktop/portfolio-new/main.scss */
+      /* line 2426, /Users/user/Desktop/portfolio-new/main.scss */
       .topBtn img {
         width: 14px; } }
 
